@@ -81,3 +81,8 @@ if result[0][0] == 1:
     prediction = 'dog'
 else:
     prediction = 'cat'
+    
+# Part 4 : save and load 
+
+classifier.save('first_try.h5')
+classifier = load_model("firsy_try.h5")
