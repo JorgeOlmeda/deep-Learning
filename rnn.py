@@ -67,6 +67,7 @@ regressor.compile(optimizer = 'adam', loss = 'mean_squared_error')
 # Fitting the RNN to the Training set
 regressor.fit(X_train, y_train, epochs = 100, batch_size = 32)
 
+# Save and load 
 #regressor.save('RNN.h5')
 #regressor = load_model("RNN.h5")
 
