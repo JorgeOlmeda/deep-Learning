@@ -90,3 +90,8 @@ new_prediction = (new_prediction > 0.5)
 # Making the Confusion Matrix
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
+
+# Part 4 : save and load 
+
+classifier.save('first_try.h5')
+classifier = load_model("firsy_try.h5")
