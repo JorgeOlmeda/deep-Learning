@@ -1,5 +1,5 @@
 # deep-Learning
-Repository with exercises of Neural Networks in Python done in a course.
+Repository with exercises of Neural Networks in Python done in a deep leaning course.
 
 ANN: Use of an Artificial Neural Network to predict if a client of a bank is going to leave the bank.
 
